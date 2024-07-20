@@ -1,0 +1,16 @@
+@use "./partials/_reset.scss";
+
+:global(.app-container) {
+  max-width: 1200px;
+  margin: 0 auto;
+  // h1 {
+  //   color: red;
+  // }
+}
+
+:global(.title) {
+  background: yellow;
+  span {
+    font-style: italic;
+  }
+}
